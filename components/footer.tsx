@@ -8,7 +8,7 @@ export function Footer() {
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sky-400 to-transparent" />
 
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-12">
           <div>
             <h3 className="text-lg font-bold mb-4">Caren Comendador</h3>
             <p className="text-white/70">Professional Accounting & Financial Consulting</p>

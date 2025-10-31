@@ -88,7 +88,7 @@ export function Services() {
               <motion.div
                 key={index}
                 variants={itemVariants}
-                className="group relative bg-white rounded-xl p-8 border border-border hover:border-sky-300 transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1"
+                className="group relative bg-white rounded-xl p-6 md:p-8 border border-border hover:border-sky-300 transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-sky-50 to-transparent opacity-0 group-hover:opacity-100 rounded-xl transition-opacity duration-300 -z-10" />
 

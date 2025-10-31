@@ -83,7 +83,7 @@ export function Contact() {
             transition={{ duration: 0.4 }}
             viewport={{ once: true }}
           >
-            <div className="bg-gradient-to-br from-white to-sky-50 rounded-2xl p-8 border border-border shadow-xl">
+            <div className="bg-gradient-to-br from-white to-sky-50 rounded-2xl p-6 md:p-8 border border-border shadow-xl">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-2">

@@ -36,7 +36,7 @@ export function About() {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="bg-gradient-to-br from-sky-200 to-blue-300 rounded-2xl h-100 w-130 md:h-full flex items-center justify-center overflow-hidden shadow-2xl">
+            <div className="bg-gradient-to-br from-sky-200 to-blue-300 rounded-2xl h-64 sm:h-72 md:h-[28rem] w-full max-w-xs sm:max-w-sm md:max-w-none mx-auto flex items-center justify-center overflow-hidden shadow-2xl">
               <img
                 src="/aboutimg.jpg"
                 alt="Caren Comendador, Professional Accountant"

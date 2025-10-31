@@ -122,6 +122,26 @@
   body {
     @apply bg-background text-foreground;
   }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  img,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  main,
+  section,
+  nav,
+  header,
+  footer {
+    overflow-x: clip;
+  }
 }
 
 /* Custom animations */

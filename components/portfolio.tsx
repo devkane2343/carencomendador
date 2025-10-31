@@ -74,7 +74,7 @@ export function Portfolio() {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="group bg-gradient-to-r from-white to-sky-50 rounded-xl p-8 border border-border hover:border-sky-400 transition-all duration-300 cursor-pointer hover:shadow-lg"
+              className="group bg-gradient-to-r from-white to-sky-50 rounded-xl p-6 md:p-8 border border-border hover:border-sky-400 transition-all duration-300 cursor-pointer hover:shadow-lg"
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">

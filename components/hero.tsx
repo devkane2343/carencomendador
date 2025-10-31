@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react"
 
 export function Hero() {
   return (
-    <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section id="hero" className="relative min-h-[85svh] md:min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-sky-50 to-blue-50 -z-10" />
       <div className="absolute inset-0 opacity-30 -z-10">

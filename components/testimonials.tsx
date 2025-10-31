@@ -44,7 +44,7 @@ export function Testimonials() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
@@ -52,7 +52,7 @@ export function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.35, delay: index * 0.05 }}
               viewport={{ once: true }}
-              className="bg-white rounded-xl p-8 border border-border shadow-sm hover:shadow-lg transition-shadow duration-300"
+              className="bg-white rounded-xl p-6 md:p-8 border border-border shadow-sm hover:shadow-lg transition-shadow duration-300"
             >
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
